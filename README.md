@@ -1,7 +1,7 @@
 # Creating-a-Hierarchy-model-with-DateTime-in-CSharp
 If you create your database models with DateTime attribute you can convert it to hierarchy model like Year-Month-Contents. I used Linq queries to create this structure.
 
-In Hierarchy.cs you can see the Model structre defined nested.
+You can see the model structure defined in the Hierarchy.cs file as nested
 
 Tipically I take the list and pars it.
 Create a new Hierarchy model.
@@ -34,7 +34,7 @@ Then we just add our item.
 	mountTag.articles.Add(item);
 	
 
-After this process we will have got our object like that
+After this process ,our hierachy object will be like that
 
 	Hierarchy={
 		2015={
